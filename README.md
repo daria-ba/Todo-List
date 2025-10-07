@@ -1,10 +1,9 @@
 # Todo-List
 
 ## Установка зависимостей
-
-````bash
+```bash
 npm install
-
+````
 ## Запуск
 ```bash
 npm run dev

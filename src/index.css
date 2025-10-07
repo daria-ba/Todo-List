@@ -1,0 +1,67 @@
+:root {
+  --header-h: 64px;
+  --form-h: 64px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f7f7f8;
+  color: #111;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Ubuntu,
+    Cantarell,
+    Noto Sans,
+    Arial,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  min-height: 100dvh;
+}
+
+.header {
+  position: fixed;
+  inset: 0 auto auto 0;
+  height: var(--header-h);
+  background: #fff;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.06);
+  display: grid;
+  align-items: center;
+
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 800px;
+  padding: 0 1rem;
+  z-index: 100;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: calc(var(--header-h) + 1rem) 1rem 2rem;
+  display: grid;
+  gap: 1rem;
+}

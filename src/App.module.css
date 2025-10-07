@@ -1,0 +1,35 @@
+.form {
+  position: sticky;
+  top: var(--header-h);
+  height: var(--form-h);
+  background-color: #ffffff;
+  border: 1px solid #ececf1;
+  border-radius: 0.9rem;
+  display: grid;
+  align-items: center;
+  padding: 0 1rem;
+  z-index: 40;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.filter {
+  background: transparent;
+  border: 0;
+}
+
+.filter:hover,
+.filter:focus {
+  background: #cecece;
+  outline: none;
+}
+
+.filter:active {
+  background: #cecece;
+}

@@ -1,0 +1,68 @@
+.editRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.editInput {
+  flex: 1;
+  min-width: 0;
+  margin-left: 15px;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.viewRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: black;
+  border-width: 3px;
+}
+
+.text {
+  flex: 1;
+  min-width: 0;
+  margin-left: 3px;
+  font-size: 18px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+.textDone {
+  text-decoration: line-through;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.iconButton {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.iconButtonGap {
+  margin-left: 20px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}

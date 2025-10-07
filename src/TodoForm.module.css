@@ -1,0 +1,40 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.5rem;
+}
+
+.input {
+  height: 44px;
+  padding: 0.9rem;
+  font-size: 16px;
+  border: 1px solid #e2e2e6;
+  border-radius: 0.75rem;
+  background: #fff;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #111;
+  box-shadow: 0 0 0 3px rgba(17, 17, 17, 0.08);
+}
+
+.button {
+  height: 44px;
+  width: 88px;
+  padding: 0 1rem;
+  border: 1px solid #111;
+  background: #111;
+  color: #fff;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button:hover {
+  filter: brightness(0.95);
+}
+
+.button:active {
+  transform: translateY(1px);
+}
